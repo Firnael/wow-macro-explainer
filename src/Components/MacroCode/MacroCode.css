@@ -1,0 +1,55 @@
+.cm-line {
+    padding: '2px 2px 2px 4px';
+    min-height: '24px';
+}
+
+/*
+.cm-tooltip-autocomplete > ul > li {
+    width: '100%';
+    font-size: '14px';
+    min-height: '28px';
+    display: 'flex';
+    align-items: 'center';
+    padding: '0 !important';
+}
+
+.cm-tooltip-autocomplete > ul {
+    min-width: '180px';
+    width: '324px';
+    height: '100%';
+    max-height: '40vh !important';
+    padding: '6px 0 !important';
+    font-family: 'DejaVuSansMono, Menlo-Regular, Inconsolata !important';
+}
+*/
+
+.cm-completionIcon-labelName:after {
+    /* ici on peut mettre des icon custom en fonction du type */
+    content: '🏷️';
+}
+
+.cm-completionIcon-annotation:after {
+    content: '#️⃣';
+}
+
+.cm-completionIcon-keyword:after {
+    content: '🎯' !important;
+}
+
+.cm-completionMatchedText {
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.cm-completionLabel {
+    padding-left: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.cm-completionDetail {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 12px !important;
+    font-style: normal !important;
+    text-align: right !important;
+    color: #ccc;
+}
