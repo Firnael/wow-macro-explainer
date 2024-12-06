@@ -1,7 +1,7 @@
 {
-  "name": "wow-macro-cms-2",
+  "name": "wow-macro-explainer",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,16 +14,19 @@
     "@emotion/styled": "^11.10.4",
     "@uiw/codemirror-theme-atomone": "^4.12.3",
     "@uiw/react-codemirror": "^4.12.3",
-    "codemirror-lang-wow-macro": "git://github.com/Firnael/lang-wow-macro.git#de8af7c6f7b9a26ec4939bd3c5f0202ca98d7497",
+    "codemirror-lang-wow-macro": "git://github.com/Firnael/lang-wow-macro.git#bab4560866d9b5f94de851a22dbda7636a0e25ee",
     "framer-motion": "^7.3.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0"
   },
   "devDependencies": {
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/view": "^6.35.0",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "prettier": "3.4.2",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }

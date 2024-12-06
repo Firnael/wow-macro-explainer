@@ -53,3 +53,8 @@
     text-align: right !important;
     color: #ccc;
 }
+
+.cm-underline {
+    text-decoration: underline;
+    color: #f00;
+}
